@@ -1,0 +1,234 @@
+
+
+
+
+
+
+
+
+/*DEFAULT*/
+body{
+margin:0;
+overflow-x:hidden;
+background-color:#1e1e1e;
+}
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@300&display=swap');
+em{
+  color:#F1C40F;
+font-weight:500;
+}
+
+h1{
+font-size:3.2em;
+letter-spacing:0.28em;
+font-family: 'Concert One', cursive;
+line-height:1.4em;
+}
+
+a{
+text-decoration:none;
+transition:0.5s;
+}
+
+
+
+
+.box{
+  width: 100px;
+  height: 90px;
+  font-family: 'Concert One', cursive;
+  border-radius: 50%;
+  border-bottom: 5px solid #D4AC0D;
+  background-color: #74747450;
+   margin: 10px;
+  
+}
+
+.title_header{
+width:60%;
+margin:auto;
+text-align:center;
+}
+
+.hhh{
+  color:#ed7e2f;
+}
+span img{
+  position: absolute;
+  left: 5%;
+  top: 3%;
+  width: 150px;
+  border-radius: 70%;
+  height: 110px;
+}
+.logo{
+  margin-top: 80px;
+  font-size:4.5rem;
+font-weight:600;
+}
+
+p{
+line-height:1.4em;
+letter-spacing:0.08em;
+font-weight:600;
+}
+.contact{
+ display: flex;
+ flex-direction: column;
+ text-align: left;
+  padding: 5px;
+  margin: 10px 10px;
+}
+/*CONTAINER*/
+.container{
+width:100%;
+background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("mon.jpg");
+height: 100vh;
+background-size:cover;
+display:flex;
+align-items:center;
+justify-content:center;
+position:relative;
+}
+
+.container .contact{
+position:absolute;
+top:10px;
+right:20px;
+}
+span .line{
+  width: 100px;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+}
+.container .contact a{ 
+font-size:1.6em;
+margin:20px;
+color:#fff;
+}
+
+.container .contact a:hover{ 
+color:#F1C40F;
+}
+
+.container section{
+text-align:center;
+width:60%;
+color:#fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+.container section h2{
+  position: relative;
+  margin-bottom: -70px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-family: 'Concert One', cursive;
+  font-size: 27px;
+}
+
+.container section .social_icons{
+margin:5vh auto;
+display:block;
+}
+
+.container section .social_icons a{
+font-size:2em;
+margin:0 20px;
+color:#fff;
+}
+
+.container section .social_icons a:hover{
+color:#F1C40F;
+}
+
+.time {
+  color: #fff;
+  text-transform: uppercase;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.middle {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.time span {
+  padding: 7px 14px;
+  font-size: 10px;
+}
+
+.time span div {
+  font-size: 40px;
+}
+.col {
+  flex: 1;
+  
+  position: relative;
+}
+.container section h4{
+   position: relative;
+  width: 450px;
+  height: 5px;
+  top: -50px;
+  margin: 0 auto;
+  background: white;;
+}
+@media (max-width:1230px){
+  .container{
+    height:100vh;
+  }
+  em{
+    font-size: 40px;
+  }
+  .container section h4{
+width: 50%;
+   top: -50px;
+   margin: 0 auto;
+ }
+}
+
+
+@media (max-width:720px){
+h1{
+font-size:1.5em;
+}
+p{
+line-height:1.3em;
+letter-spacing:0.08em;
+font-weight:200;
+}
+.container section{
+width:90%;
+}
+.container section label{
+width:90%;
+}
+.col{
+  flex: 100%;
+}
+.box{
+  margin: 20px 5px;
+}
+span img{
+  width: 90px;
+  height: 60px;
+}
+.contact em{
+  font-size: 12px;
+ }
+ span img{
+ 
+  left: 3%;
+  top: 2%;
+  width: 90px;
+  border-radius: 70%;
+  height: 60px;
+}
+}
